@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9c9c9c; /* Light gray background color */
+    text-decoration-color: #333; /* Default text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.title h1 {
+    font-size: 28px;
+    color: #0095f6; /* Instagram's blue color */
+    margin: 0;
+}
+
+.window {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff; /* White background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.window-header {
+    background-color: #0095f6; /* Instagram's blue color */
+    color: #fff; /* White text color */
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.window-content {
+    padding: 20px;
+}
+
+.about-me {
+    color: #000; /* Black text color for the About Me section */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #dbdbdb; /* Light gray border color */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #0095f6; /* Instagram's blue color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
